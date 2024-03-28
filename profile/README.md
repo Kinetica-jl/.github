@@ -1,4 +1,4 @@
-# Kinetica
+# Kinetica.jl
 
 Kinetica.jl is a Julia package for performing automated exploration of chemical reaction networks (CRNs) and integrating these networks in time. In particular, it features:
 
@@ -18,3 +18,7 @@ We supplement this with a discrete approximation to variable rate constant simul
 Extending user control over kinetic simulations, Kinetica.jl makes use of a modular calculator interface for rate constant calculations. This allows for a wide variety of techniques to be utilised within kinetic simulations, ranging from expensive DFT-based approaches to fast ML-based approximations.
 
 We currently provide the KineticaKPM.jl package for calculating rate constants from ML-predicted activation energies, and aim to release further calculator packages in the future. However, the calculator interface allows for simple user definition of new methods too.
+
+## Get Started
+
+Kinetica can be installed through the Julia package manager. See [the documentation](https://kinetica-jl.github.io/Kinetica.jl/stable/) for details and tutorials.
